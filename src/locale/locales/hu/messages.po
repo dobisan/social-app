@@ -4,8 +4,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 16:01-0800\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Levente Pál Szíjártó <szijartoleventepal@gmail.com>\n"
-"Language-Team: Levente Pál Szíjártó – szijartoleventepal@gmail.com\n"
+"Last-Translator: Dobos István <dobisan@gmail.com>\n"
+"Language-Team: Levente Pál Szíjártó – szijartoleventepal@gmail.com\nDobos István <dobisan@gmail.com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,11 +36,11 @@ msgstr "{0} órával"
 
 #: src/components/moderation/LabelsOnMe.tsx:54
 msgid "{0, plural, one {# label has been placed on this account} other {# labels have been placed on this account}}"
-msgstr "{0} feljegyzést helyeztek erre a fiókra"
+msgstr "{0} címke került erre a fiókra"
 
 #: src/components/moderation/LabelsOnMe.tsx:60
 msgid "{0, plural, one {# label has been placed on this content} other {# labels have been placed on this content}}"
-msgstr "{0} feljegyzést helyeztek erre a tartalomra"
+msgstr "{0} címke került erre a tartalomra"
 
 #: src/lib/hooks/useTimeAgo.ts:136
 msgid "{0, plural, one {# minute} other {# minutes}}"
@@ -104,12 +104,12 @@ msgstr "Mégse tetszik ({0} kedvelés)"
 #. Pattern: {wordValue} in tags
 #: src/components/dialogs/MutedWords.tsx:475
 msgid "{0} <0>in <1>tags</1></0>"
-msgstr "{0} <0>a <1>címkékben</1></0>"
+msgstr "{0} <0>a <1>hashtagekben</1></0>"
 
 #. Pattern: {wordValue} in text, tags
 #: src/components/dialogs/MutedWords.tsx:465
 msgid "{0} <0>in <1>text & tags</1></0>"
-msgstr "{0} <0>a <1>szövegekben és címkékben</1></0>"
+msgstr "{0} <0>a <1>szövegekben és hashtagekben</1></0>"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:219
 msgid "{0} joined this week"
@@ -392,7 +392,7 @@ msgstr "Elnémított szó felvétele beállítások alapján"
 
 #: src/components/dialogs/MutedWords.tsx:112
 msgid "Add muted words and tags"
-msgstr "Elnémított szavak és címkék felvétele"
+msgstr "Elnémított szavak és hashtagek felvétele"
 
 #: src/screens/Home/NoFeedsPinned.tsx:99
 msgid "Add recommended feeds"
@@ -450,7 +450,7 @@ msgstr "A felnőtt tartalmak le vannak tiltva."
 #: src/view/com/composer/labels/LabelsBtn.tsx:140
 #: src/view/com/composer/labels/LabelsBtn.tsx:194
 msgid "Adult Content labels"
-msgstr "Felnőtt tartalmi feljegyzések"
+msgstr "Felnőtt tartalmi címkék"
 
 #: src/screens/Moderation/index.tsx:410
 #: src/view/screens/Settings/index.tsx:653
@@ -607,7 +607,7 @@ msgstr "ismeretlen hiba történt"
 #: src/components/moderation/ModerationDetailsDialog.tsx:158
 #: src/components/moderation/ModerationDetailsDialog.tsx:154
 msgid "an unknown labeler"
-msgstr "ismeretlen feljegyző"
+msgstr "ismeretlen címkéző"
 
 #: src/components/WhoCanReply.tsx:295
 #: src/view/com/notifications/FeedItem.tsx:231
@@ -647,7 +647,7 @@ msgstr "Törölted az alkalmazásjelszót"
 
 #: src/view/com/modals/AddAppPasswords.tsx:138
 msgid "App Password names can only contain letters, numbers, spaces, dashes, and underscores."
-msgstr "Egy alkalmazásjelszó neve csak az angol ábécé betűit, számokat, szóközöket, kötőjeleket és alsókötőjeleket tartalmazhat."
+msgstr "Egy alkalmazásjelszó neve csak az angol ábécé betűit, számokat, szóközöket, kötőjeleket és alulvonásokat tartalmazhat."
 
 #: src/view/com/modals/AddAppPasswords.tsx:103
 msgid "App Password names must be at least 4 characters long."
@@ -661,7 +661,7 @@ msgstr "Alkalmazásjelszó-beállítások"
 #: src/view/screens/AppPasswords.tsx:197
 #: src/view/screens/Settings/index.tsx:673
 msgid "App Passwords"
-msgstr "Alkalmazásjelszók"
+msgstr "Alkalmazásjelszavak"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:148
 #: src/components/moderation/LabelsOnMeDialog.tsx:151
@@ -670,7 +670,7 @@ msgstr "Fellebbezés"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:243
 msgid "Appeal \"{0}\" label"
-msgstr "A(z) „{0}” feljegyzés fellebbezése"
+msgstr "A(z) „{0}” címke fellebbezése"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:233
 #: src/screens/Messages/components/ChatDisabled.tsx:91
@@ -687,15 +687,15 @@ msgstr "Döntés fellebbezése"
 #: src/screens/Settings/AppearanceSettings.tsx:89
 #: src/view/screens/Settings/index.tsx:485
 msgid "Appearance"
-msgstr "Megjelenítés"
+msgstr "Megjelenés"
 
 #: src/view/screens/Settings/index.tsx:476
 msgid "Appearance settings"
-msgstr "Megjelenítési beállítások"
+msgstr "Megjelenési beállítások"
 
 #: src/Navigation.tsx:325
 msgid "Appearance Settings"
-msgstr "Megjelenítési beállítások"
+msgstr "Megjelenési beállítások"
 
 #: src/screens/Feeds/NoSavedFeedsOfAnyType.tsx:47
 #: src/screens/Home/NoFeedsPinned.tsx:93
@@ -845,7 +845,7 @@ msgstr "Letiltott bejegyzés."
 
 #: src/screens/Profile/Sections/Labels.tsx:173
 msgid "Blocking does not prevent this labeler from placing labels on your account."
-msgstr "A feljegyző letiltása nem akadályozza meg abban, hogy feljegyzéseket helyezzen a fiókodra."
+msgstr "A címkéző letiltása nem akadályozza meg abban, hogy címkéket helyezzen a fiókodra."
 
 #: src/view/screens/ProfileList.tsx:744
 msgid "Blocking is public. Blocked accounts cannot reply in your threads, mention you, or otherwise interact with you."
@@ -853,7 +853,7 @@ msgstr "A letiltás nyilvános. Az általad letiltott fiókok nem képesek vála
 
 #: src/view/com/profile/ProfileMenu.tsx:333
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
-msgstr "A fiók letiltása nem fogja megakadályozni a feljegyzések hozzárendelését a saját fiókodhoz, viszont a letiltott fiók nem lesz képes válaszolni a bejegyzéseidre és egyéb módon kapcsolatba lépni Veled."
+msgstr "A fiók letiltása nem fogja megakadályozni a címkék hozzárendelését a saját fiókodhoz, viszont a letiltott fiók nem lesz képes válaszolni a bejegyzéseidre és egyéb módon kapcsolatba lépni Veled."
 
 #: src/view/com/auth/SplashScreen.web.tsx:172
 msgid "Blog"
@@ -956,7 +956,7 @@ msgstr "Kamera"
 
 #: src/view/com/modals/AddAppPasswords.tsx:180
 msgid "Can only contain letters, numbers, spaces, dashes, and underscores. Must be at least 4 characters long, but no more than 32 characters long."
-msgstr "A jelszó neve csak az angol ábécé betűit, számokat, szóközöket, kötőjeleket és alsókötőjeleket tartalmazhat. Legalább 4, de legfeljebb 32 karakter hosszú lehet."
+msgstr "A jelszó neve csak az angol ábécé betűit, számokat, szóközöket, kötőjeleket és alulvonásokat tartalmazhat. Legalább 4, de legfeljebb 32 karakter hosszú lehet."
 
 #: src/components/Menu/index.tsx:235
 #: src/components/Prompt.tsx:129
@@ -1137,7 +1137,7 @@ msgstr "Személyek kiválasztása"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:116
 msgid "Choose self-labels that are applicable for the media you are posting. If none are selected, this post is suitable for all audiences."
-msgstr "Válaszd ki a médiatartalomra alkalmazható feljegyzési kategóriákat! Ha egyet sem választasz ki, akkor a bejegyzést bármilyen közönség által megtekinthetőnek vesszük."
+msgstr "Válaszd ki a médiatartalomra alkalmazható címke kategóriákat! Ha egyet sem választasz ki, akkor a bejegyzést bármilyen közönség által megtekinthetőnek vesszük."
 
 #: src/view/com/auth/server-input/index.tsx:76
 msgid "Choose Service"
@@ -1185,7 +1185,7 @@ msgstr "További információ."
 
 #: src/components/TagMenu/index.web.tsx:152
 msgid "Click here to open tag menu for {tag}"
-msgstr "A(z) {tag} címke menüjének megnyitása"
+msgstr "A(z) {tag} hashtag menüjének megnyitása"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:304
 msgid "Click to disable quote posts of this post."
@@ -1315,7 +1315,7 @@ msgstr "Írj legfeljebb {MAX_GRAPHEME_LENGTH} karakter hosszú bejegyzéseket"
 
 #: src/view/com/post-thread/PostThreadComposePrompt.tsx:35
 msgid "Compose reply"
-msgstr "Válaszírás"
+msgstr "Válasz írása"
 
 #: src/view/com/composer/Composer.tsx:1341
 msgid "Compressing video..."
@@ -1348,7 +1348,7 @@ msgstr "Változtatások megerősítése"
 
 #: src/view/com/modals/lang-settings/ConfirmLanguagesButton.tsx:35
 msgid "Confirm content language settings"
-msgstr "Tartalomnyelvi beállítások megerősítése"
+msgstr "Tartalom nyelvi beállítások megerősítése"
 
 #: src/view/com/modals/DeleteAccount.tsx:282
 msgid "Confirm delete account"
@@ -1409,11 +1409,11 @@ msgstr "Ez a tartalom nem elérhető"
 #: src/lib/moderation/useGlobalLabelStrings.ts:22
 #: src/lib/moderation/useModerationCauseDescription.ts:43
 msgid "Content Warning"
-msgstr "Tartalomfigyelmeztetés"
+msgstr "Tartalmi figyelmeztetés"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:61
 msgid "Content warnings"
-msgstr "Tartalomfigyelmeztetések"
+msgstr "Tartalmi figyelmeztetések"
 
 #: src/components/Menu/index.web.tsx:83
 msgid "Context menu backdrop, click to close the menu."
@@ -1521,7 +1521,7 @@ msgstr "QR-kód másolása"
 #: src/Navigation.tsx:280
 #: src/view/screens/CopyrightPolicy.tsx:31
 msgid "Copyright Policy"
-msgstr "Jogi irányelvek"
+msgstr "Szerzői jogi irányelvek"
 
 #: src/components/dms/LeaveConvoPrompt.tsx:39
 msgid "Could not leave chat"
@@ -1785,7 +1785,7 @@ msgstr "Idézet leválasztása"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:731
 msgid "Detach quote post?"
-msgstr "Idézet leválasztása"
+msgstr "Leválasztod az idézetet?"
 
 #: src/components/WhoCanReply.tsx:175
 msgid "Dialog: adjust who can interact with this post"
@@ -2220,7 +2220,7 @@ msgstr "Jelszó megadása"
 #: src/components/dialogs/MutedWords.tsx:127
 #: src/components/dialogs/MutedWords.tsx:128
 msgid "Enter a word or tag"
-msgstr "Szó vagy címke megadása"
+msgstr "Szó vagy hashtag megadása"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:75
 msgid "Enter Code"
@@ -2531,7 +2531,7 @@ msgstr "Hírfolyamok"
 
 #: src/view/screens/SavedFeeds.tsx:205
 msgid "Feeds are custom algorithms that users build with a little coding expertise. <0/> for more information."
-msgstr "A hírfolyamok olyan egyéni algoritmusok, amelyeket felhasználók építenek egy kis programozási tudással. További információért <0/>!"
+msgstr "A hírfolyamok olyan egyéni algoritmusok, amelyeket felhasználók hoznak létre egy kis programozási tudással. További információért <0/>!"
 
 #: src/components/FeedCard.tsx:273
 #: src/view/screens/SavedFeeds.tsx:83
@@ -2629,7 +2629,7 @@ msgstr "Követés kölcsönzése"
 #: src/view/com/profile/FollowButton.tsx:79
 msgctxt "action"
 msgid "Follow Back"
-msgstr "Követés kölcsönzése"
+msgstr "Visszakövetés"
 
 #: src/view/screens/Search/Explore.tsx:334
 msgid "Follow more accounts to get connected to your interests and build your network."
@@ -2661,7 +2661,7 @@ msgstr "mostantól követ Téged"
 
 #: src/view/com/notifications/FeedItem.tsx:205
 msgid "followed you back"
-msgstr "kölcsönözte a követésedet"
+msgstr "kölcsönösen követ téged"
 
 #: src/view/screens/ProfileFollowers.tsx:30
 #: src/view/screens/ProfileFollowers.tsx:31
@@ -2794,7 +2794,7 @@ msgstr "Súgó"
 #: src/view/com/modals/VerifyEmail.tsx:197
 #: src/view/com/modals/VerifyEmail.tsx:199
 msgid "Get Started"
-msgstr "Gyorstalpaló"
+msgstr "Kezdjük"
 
 #: src/components/ProgressGuide/List.tsx:33
 msgid "Getting started"
@@ -2891,15 +2891,15 @@ msgstr "Rezgés"
 
 #: src/lib/moderation/useReportOptions.ts:34
 msgid "Harassment, trolling, or intolerance"
-msgstr "Zaklatás, gúnyolódás vagy tűrélytelenség"
+msgstr "Zaklatás, gúnyolódás vagy intolerancia"
 
 #: src/Navigation.tsx:332
 msgid "Hashtag"
-msgstr "Címke"
+msgstr "Hashtag"
 
 #: src/components/RichText.tsx:225
 msgid "Hashtag: #{tag}"
-msgstr "Címke: #{tag}"
+msgstr "Hashtag: #{tag}"
 
 #: src/screens/Signup/index.tsx:173
 msgid "Having trouble?"
@@ -3013,7 +3013,7 @@ msgstr "Kezdőlap"
 
 #: src/view/com/modals/ChangeHandle.tsx:407
 msgid "Host:"
-msgstr "Gazda:"
+msgstr "Kiszolgáló:"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:83
 #: src/screens/Login/LoginForm.tsx:166
@@ -3238,32 +3238,32 @@ msgstr "Sajtó"
 
 #: src/components/moderation/ContentHider.tsx:209
 msgid "Labeled by {0}."
-msgstr "Feljegyezte a(z) {0}."
+msgstr "Címkézte: {0}."
 
 #: src/components/moderation/ContentHider.tsx:207
 msgid "Labeled by the author."
-msgstr "Feljegyezte a szerző."
+msgstr "Szerző által címkézve."
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:76
 #: src/view/screens/Profile.tsx:226
 msgid "Labels"
-msgstr "Feljegyzések"
+msgstr "Címkék"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:74
 msgid "Labels added"
-msgstr "Alkalmaztad a feljegyzéseket"
+msgstr "Címkék hozzáadva"
 
 #: src/screens/Profile/Sections/Labels.tsx:163
 msgid "Labels are annotations on users and content. They can be used to hide, warn, and categorize the network."
-msgstr "A feljegyzések felhasználókra és tartalmakra elhelyezett különleges címkék. A hálózat ezeket használja a különböző tartalmak kategóriákba sorolására, elrejtésére és a megtekintés előtti figyelmeztetések megjelenítésére."
+msgstr "A címkék felhasználókra és tartalmakra elhelyezett különleges jelölők. A hálózat ezeket használja a különböző tartalmak kategóriákba sorolására, elrejtésére és a megtekintés előtti figyelmeztetések megjelenítésére."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:71
 msgid "Labels on your account"
-msgstr "A fiókodra helyezett feljegyzések"
+msgstr "A fiókodra helyezett címkék"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:73
 msgid "Labels on your content"
-msgstr "A tartalmadra helyezett feljegyzések"
+msgstr "A tartalmadra helyezett címkék"
 
 #: src/view/com/composer/select-language/SelectLangBtn.tsx:105
 msgid "Language selection"
@@ -3372,12 +3372,12 @@ msgstr "Világos"
 
 #: src/components/ProgressGuide/List.tsx:48
 msgid "Like 10 posts"
-msgstr "Kedvelj 10 megjegyzést!"
+msgstr "Kedvelj 10 bejegyzést!"
 
 #: src/state/shell/progress-guide.tsx:157
 #: src/state/shell/progress-guide.tsx:162
 msgid "Like 10 posts to train the Discover feed"
-msgstr "Kedvelj 10 megjegyzést a Követett hírfolyam idomításához!"
+msgstr "Kedvelj 10 bejegyzést a Felfedező hírfolyam tanításához!"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:265
 #: src/view/screens/ProfileFeed.tsx:576
@@ -3388,14 +3388,14 @@ msgstr "Hírfolyam kedvelése"
 #: src/Navigation.tsx:230
 #: src/Navigation.tsx:235
 msgid "Liked by"
-msgstr "Kedvelők"
+msgstr "Kedvelték"
 
 #: src/screens/Post/PostLikedBy.tsx:32
 #: src/screens/Post/PostLikedBy.tsx:33
 #: src/screens/Profile/ProfileLabelerLikedBy.tsx:29
 #: src/view/screens/ProfileFeedLikedBy.tsx:30
 msgid "Liked By"
-msgstr "Kedvelők"
+msgstr "Kedvelték"
 
 #: src/view/com/notifications/FeedItem.tsx:211
 msgid "liked your custom feed"
@@ -3428,7 +3428,7 @@ msgstr "Letiltottad a listán szereplő személyeket"
 #: src/components/ListCard.tsx:150
 #: src/view/com/feeds/FeedSourceCard.tsx:252
 msgid "List by {0}"
-msgstr "Lisa – Szerző: {0}"
+msgstr "Lista – Szerző: {0}"
 
 #: src/view/screens/ProfileList.tsx:459
 msgid "List deleted"
@@ -3448,7 +3448,7 @@ msgstr "Elnémítottad a listát"
 
 #: src/view/com/modals/CreateOrEditList.tsx:255
 msgid "List Name"
-msgstr "Listacím"
+msgstr "Lista neve"
 
 #: src/view/screens/ProfileList.tsx:435
 msgid "List unblocked"
@@ -3495,7 +3495,7 @@ msgstr "Új bejegyzések betöltése"
 
 #: src/view/com/composer/text-input/mobile/Autocomplete.tsx:111
 msgid "Loading..."
-msgstr "Betöltés…"
+msgstr "Betöltés..."
 
 #: src/Navigation.tsx:255
 msgid "Log"
@@ -3531,7 +3531,7 @@ msgstr "A logót készítette: <0>@sawaratsuki.bsky.social</0>"
 
 #: src/components/RichText.tsx:226
 msgid "Long press to open tag menu for #{tag}"
-msgstr "Tartsd lenyomva a(z) #{tag} címkét a menü megnyitásához"
+msgstr "Tartsd lenyomva a(z) #{tag} hashtaget a menü megnyitásához"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:110
 msgid "Looks like XXXXX-XXXXX"
@@ -3559,7 +3559,7 @@ msgstr "Ellenőrizd, hogy biztosan ide akarsz-e menni!"
 
 #: src/components/dialogs/MutedWords.tsx:108
 msgid "Manage your muted words and tags"
-msgstr "Elnémított szavak és címkék kezelése"
+msgstr "Elnémított szavak és hashtagek kezelése"
 
 #: src/components/dms/ConvoMenu.tsx:151
 #: src/components/dms/ConvoMenu.tsx:158
@@ -3577,7 +3577,7 @@ msgstr "A nyugalom megzavarására alkalmas vagy felnőtt témákat ábrázoló 
 
 #: src/components/WhoCanReply.tsx:254
 msgid "mentioned users"
-msgstr "megemlített felhasználó"
+msgstr "megemlített felhasználók"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:394
 msgid "Mentioned users"
@@ -3729,7 +3729,7 @@ msgstr "Elnémítás"
 
 #: src/components/TagMenu/index.web.tsx:116
 msgid "Mute {truncatedTag}"
-msgstr "A(z) {truncatedTag} címke elnémítása"
+msgstr "A(z) {truncatedTag} hashtag elnémítása"
 
 #: src/view/com/profile/ProfileMenu.tsx:259
 #: src/view/com/profile/ProfileMenu.tsx:266
@@ -3742,7 +3742,7 @@ msgstr "Fiókok elnémítása"
 
 #: src/components/TagMenu/index.tsx:205
 msgid "Mute all {displayTag} posts"
-msgstr "Az összes {displayTag} címkével rendelkező bejegyzés elnémítása"
+msgstr "Az összes {displayTag} hashtaggel rendelkező bejegyzés elnémítása"
 
 #: src/components/dms/ConvoMenu.tsx:172
 #: src/components/dms/ConvoMenu.tsx:178
@@ -3775,11 +3775,11 @@ msgstr "Szó elnémítása 7 napra"
 
 #: src/components/dialogs/MutedWords.tsx:258
 msgid "Mute this word in post text and tags"
-msgstr "Szó elnémítása szövegben és címkékben is"
+msgstr "Szó elnémítása szövegben és hashtagekben is"
 
 #: src/components/dialogs/MutedWords.tsx:274
 msgid "Mute this word in tags only"
-msgstr "Szó elnémítása csak címkékben"
+msgstr "Szó elnémítása csak hashtagekben"
 
 #: src/components/dialogs/MutedWords.tsx:170
 msgid "Mute this word until you unmute it"
@@ -3793,7 +3793,7 @@ msgstr "Válaszlánc elnémítása"
 #: src/view/com/util/forms/PostDropdownBtn.tsx:523
 #: src/view/com/util/forms/PostDropdownBtn.tsx:525
 msgid "Mute words & tags"
-msgstr "Szavak és címkék elnémítása"
+msgstr "Szavak és hashtagek elnémítása"
 
 #: src/screens/Moderation/index.tsx:265
 msgid "Muted accounts"
@@ -3814,7 +3814,7 @@ msgstr "Némítás forrása: {0}"
 
 #: src/screens/Moderation/index.tsx:235
 msgid "Muted words & tags"
-msgstr "Elnémított szavak és címkék"
+msgstr "Elnémított szavak és hashtagek"
 
 #: src/view/screens/ProfileList.tsx:734
 msgid "Muting is private. Muted accounts can interact with you, but you will not see their posts or receive notifications from them."
@@ -4090,7 +4090,7 @@ msgstr "A(z) „{search}” kifejezésre nincs találat."
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:129
 #~ msgid "No self-labels can be applied to this post because it contains no media."
-#~ msgstr "Erre a bejegyzésre nem alkalmazhatsz feljegyzéseket, mert nem csatoltál hozzá médiatartalmat."
+#~ msgstr "Erre a bejegyzésre nem alkalmazhatsz címkéket, mert nem csatoltál hozzá médiatartalmat."
 
 #: src/components/dialogs/EmbedConsent.tsx:104
 #: src/components/dialogs/EmbedConsent.tsx:111
@@ -4222,7 +4222,7 @@ msgstr "A legrégebbi válaszok elöl"
 
 #: src/components/StarterPack/QrCode.tsx:75
 msgid "on<0><1/><2><3/></2></0>"
-msgstr "ekkor:<0><1/><2><3/></2></0>"
+msgstr "a <0><1/><2><3/></2></0>-on"
 
 #: src/view/screens/Settings/index.tsx:227
 msgid "Onboarding reset"
@@ -4286,7 +4286,7 @@ msgstr "Beszélgetési beállítások megnyitása"
 #: src/view/com/composer/Composer.tsx:999
 #: src/view/com/composer/Composer.tsx:1000
 msgid "Open emoji picker"
-msgstr "Emojiválasztó megnyitása"
+msgstr "Emoji választó megnyitása"
 
 #: src/view/screens/ProfileFeed.tsx:301
 msgid "Open feed options menu"
@@ -4306,7 +4306,7 @@ msgstr "Üzenetlehetőségek megnyitása"
 
 #: src/screens/Moderation/index.tsx:231
 msgid "Open muted words and tags settings"
-msgstr "Elnémított szavak és címkék beállításainak megnyitása"
+msgstr "Elnémított szavak és hashtagek beállításainak megnyitása"
 
 #: src/view/com/home/HomeHeaderLayoutMobile.tsx:54
 msgid "Open navigation"
@@ -4323,7 +4323,7 @@ msgstr "Kezdőcsomag-menü megnyitása"
 #: src/view/screens/Settings/index.tsx:827
 #: src/view/screens/Settings/index.tsx:837
 msgid "Open storybook page"
-msgstr "Mesekönyv-oldal megnyitása"
+msgstr "Sztori-könyv oldal megnyitása"
 
 #: src/view/screens/Settings/index.tsx:815
 msgid "Open system log"
@@ -4450,11 +4450,11 @@ msgstr "Hivatkozás megnyitása"
 #: src/view/screens/Settings/index.tsx:828
 #: src/view/screens/Settings/index.tsx:838
 msgid "Opens the storybook page"
-msgstr "Mesekönyv-oldal megnyitása"
+msgstr "Sztori-könyv oldal megnyitása"
 
 #: src/view/screens/Settings/index.tsx:816
 msgid "Opens the system log page"
-msgstr "Rendszernaplós oldal megnyitása"
+msgstr "Rendszernapló oldal megnyitása"
 
 #: src/view/screens/Settings/index.tsx:562
 msgid "Opens the threads preferences"
@@ -4656,7 +4656,7 @@ msgstr "Válassz ki egy jelszót!"
 
 #: src/screens/Signup/state.ts:231
 msgid "Please complete the verification captcha."
-msgstr "Végezd el a captchás ellenőrzést!"
+msgstr "Végezd el a captcha ellenőrzést!"
 
 #: src/view/com/modals/ChangeEmail.tsx:65
 msgid "Please confirm your email before changing it. This is a temporary requirement while email-updating tools are added, and it will soon be removed."
@@ -4672,7 +4672,7 @@ msgstr "Nevezd el egyedien az alkalmazásjelszót vagy használd a véletlenszer
 
 #: src/components/dialogs/MutedWords.tsx:86
 msgid "Please enter a valid word, tag, or phrase to mute"
-msgstr "Adj meg egy érvényes elnémítandó szót, címkét vagy kifejezést!"
+msgstr "Adj meg egy érvényes elnémítandó szót, hashtaget vagy kifejezést!"
 
 #: src/screens/Signup/state.ts:196
 #: src/screens/Signup/StepInfo/index.tsx:102
@@ -4689,7 +4689,7 @@ msgstr "Add meg a jelszavad is:"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:265
 msgid "Please explain why you think this label was incorrectly applied by {0}"
-msgstr "Magyarázd el, hogy miért gondolod úgy, hogy a(z) {0} helytelenül alkalmazta ezt a feljegyzést"
+msgstr "Magyarázd el, hogy miért gondolod úgy, hogy a(z) {0} helytelenül alkalmazta ezt a címkét"
 
 #: src/screens/Messages/components/ChatDisabled.tsx:110
 msgid "Please explain why you think your chats were incorrectly disabled"
@@ -4798,7 +4798,7 @@ msgstr "Bejegyzések"
 
 #: src/components/dialogs/MutedWords.tsx:115
 msgid "Posts can be muted based on their text, their tags, or both. We recommend avoiding common words that appear in many posts, since it can result in no posts being shown."
-msgstr "A különböző bejegyzéseket a szövegük, címkéik vagy mindkettő által is elnémíthatod. Javasoljuk a gyakori szavak kerülését, mivel ez bizonyos esetekben az összes bejegyzés elrejtését is eredményezheti."
+msgstr "A különböző bejegyzéseket a szövegük, a benne lévő hashtagek vagy mindkettő által is elnémíthatod. Javasoljuk a gyakori szavak kerülését, mivel ez bizonyos esetekben az összes bejegyzés elrejtését is eredményezheti."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:68
 msgid "Posts hidden"
@@ -5565,10 +5565,10 @@ msgid "Search for \"{searchText}\""
 msgstr "Keresési kifejezés: {searchText}"
 
 #~ msgid "Search for all posts by @{authorHandle} with tag {displayTag}"
-#~ msgstr "Keresés: @{authorHandle} bejegyzései, amelyek {displayTag} címkével rendelkeznek"
+#~ msgstr "Keresés: @{authorHandle} bejegyzései, amelyek {displayTag} hashtaggel rendelkeznek"
 
 #~ msgid "Search for all posts with tag {displayTag}"
-#~ msgstr "Keresés: Bejegyzések, amelyek {displayTag} címkével rendelkeznek"
+#~ msgstr "Keresés: Bejegyzések, amelyek {displayTag} hashtaggel rendelkeznek"
 
 #: src/screens/StarterPack/Wizard/index.tsx:500
 msgid "Search for feeds that you want to suggest to others."
@@ -5597,19 +5597,19 @@ msgstr "Biztonsági lépés szükséges"
 
 #: src/components/TagMenu/index.web.tsx:77
 msgid "See {truncatedTag} posts"
-msgstr "A(z) {truncatedTag} címkével ellátott bejegyzések megtekintése"
+msgstr "A(z) {truncatedTag} hashtaggel ellátott bejegyzések megtekintése"
 
 #: src/components/TagMenu/index.web.tsx:94
 msgid "See {truncatedTag} posts by user"
-msgstr "A felhasználó {truncatedTag} címkével ellátott bejegyzéseinek megtekintése"
+msgstr "A felhasználó {truncatedTag} hashtaggel ellátott bejegyzéseinek megtekintése"
 
 #: src/components/TagMenu/index.tsx:132
 msgid "See <0>{displayTag}</0> posts"
-msgstr "A(z) <0>{displayTag}</0> címkével ellátott bejegyzések megtekintése"
+msgstr "A(z) <0>{displayTag}</0> hashtaggel ellátott bejegyzések megtekintése"
 
 #: src/components/TagMenu/index.tsx:183
 msgid "See <0>{displayTag}</0> posts by this user"
-msgstr "A felhasználó <0>{displayTag}</0> címkével ellátott bejegyzéseinek megtekintése"
+msgstr "A felhasználó <0>{displayTag}</0> hashtaggel ellátott bejegyzéseinek megtekintése"
 
 #: src/view/com/auth/SplashScreen.web.tsx:175
 msgid "See jobs at Bluesky"
@@ -5721,7 +5721,7 @@ msgstr "Add meg, hogy milyen nyelvre szeretnéd lefordítani a bejegyzéseket."
 
 #: src/components/dms/ChatEmptyPill.tsx:38
 msgid "Send a neat website!"
-msgstr "Küldj be egy pompás honlapot!"
+msgstr "Küldj egy szuper honlapot!"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:189
 msgid "Send Confirmation"
@@ -5781,7 +5781,7 @@ msgstr "Továbbítás személyes üzenetben"
 
 #: src/view/com/modals/DeleteAccount.tsx:151
 msgid "Sends email with confirmation code for account deletion"
-msgstr "Visszaigazoló email küldése a fiók törlése szempontjából"
+msgstr "Visszaigazoló email küldése a fiók törléséhez"
 
 #: src/view/com/auth/server-input/index.tsx:111
 msgid "Server address"
@@ -5852,12 +5852,12 @@ msgstr "Szexuális tartalom"
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:333
 #: src/view/screens/ProfileList.tsx:487
 msgid "Share"
-msgstr "Továbbítás"
+msgstr "Megosztás"
 
 #: src/view/com/lightbox/Lightbox.tsx:176
 msgctxt "action"
 msgid "Share"
-msgstr "Továbbítás"
+msgstr "Megosztás"
 
 #: src/components/dms/ChatEmptyPill.tsx:37
 msgid "Share a cool story!"
@@ -5871,23 +5871,23 @@ msgstr "Mondj el egy érdekességet!"
 #: src/view/com/util/forms/PostDropdownBtn.tsx:703
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:349
 msgid "Share anyway"
-msgstr "Továbbítás mégis"
+msgstr "Így is megosztom"
 
 #: src/view/screens/ProfileFeed.tsx:364
 #: src/view/screens/ProfileFeed.tsx:366
 msgid "Share feed"
-msgstr "Hírfolyam továbbítása"
+msgstr "Hírfolyam megosztása"
 
 #: src/components/StarterPack/ShareDialog.tsx:124
 #: src/components/StarterPack/ShareDialog.tsx:131
 #: src/screens/StarterPack/StarterPackScreen.tsx:597
 msgid "Share link"
-msgstr "Hivatkozás továbbítása"
+msgstr "Hivatkozás megosztása"
 
 #: src/view/com/modals/LinkWarning.tsx:89
 #: src/view/com/modals/LinkWarning.tsx:95
 msgid "Share Link"
-msgstr "Hivatkozás továbbítása"
+msgstr "Hivatkozás megosztása"
 
 #: src/components/StarterPack/ShareDialog.tsx:88
 msgid "Share link dialog"
@@ -5896,11 +5896,11 @@ msgstr "Hivatkozásmegosztási párbeszédablak"
 #: src/components/StarterPack/ShareDialog.tsx:135
 #: src/components/StarterPack/ShareDialog.tsx:146
 msgid "Share QR code"
-msgstr "QR-kód továbbítása"
+msgstr "QR-kód megosztása"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:415
 msgid "Share this starter pack"
-msgstr "Kezdőcsomag továbbítása"
+msgstr "Kezdőcsomag megosztása"
 
 #: src/components/StarterPack/ShareDialog.tsx:100
 msgid "Share this starter pack and help people join your community on Bluesky."
@@ -5916,7 +5916,7 @@ msgstr "„Megosztott beállítások” tesztelő"
 
 #: src/view/com/modals/LinkWarning.tsx:92
 msgid "Shares the linked website"
-msgstr "A hivatkozott honlap továbbítása"
+msgstr "A hivatkozott honlap megosztása"
 
 #: src/components/moderation/ContentHider.tsx:178
 #: src/components/moderation/LabelPreference.tsx:136
@@ -6004,7 +6004,7 @@ msgstr "Tartalom mutatása"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:58
 msgid "Show warning"
-msgstr "Figyelmeztetés"
+msgstr "Figyelmeztetés mutatása"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:56
 msgid "Show warning and filter from feeds"
@@ -6036,7 +6036,7 @@ msgstr "Bejelentkezés, mint {0}"
 
 #: src/screens/Login/ChooseAccountForm.tsx:80
 msgid "Sign in as..."
-msgstr "Bejelentkezés, mint…"
+msgstr "Bejelentkezés, mint..."
 
 #: src/components/dialogs/Signin.tsx:75
 msgid "Sign in or create your account to join the conversation!"
@@ -6223,14 +6223,14 @@ msgstr "Adatok törölve. Indítsd újra az alkalmazást!"
 #: src/Navigation.tsx:240
 #: src/view/screens/Settings/index.tsx:830
 msgid "Storybook"
-msgstr "Mesekönyv"
+msgstr "Sztori-könyv"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:299
 #: src/components/moderation/LabelsOnMeDialog.tsx:300
 #: src/screens/Messages/components/ChatDisabled.tsx:142
 #: src/screens/Messages/components/ChatDisabled.tsx:143
 msgid "Submit"
-msgstr "Submit"
+msgstr "Küldés"
 
 #: src/view/screens/ProfileList.tsx:703
 msgid "Subscribe"
@@ -6238,15 +6238,15 @@ msgstr "Feliratkozás"
 
 #: src/screens/Profile/Sections/Labels.tsx:201
 msgid "Subscribe to @{0} to use these labels:"
-msgstr "Az alábbi feljegyzési kategóriák használatához iratkozz fel a(z) @{0} nevű szolgáltatóra:"
+msgstr "Az alábbi címke kategóriák használatához iratkozz fel a(z) @{0} nevű szolgáltatóra:"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:228
 msgid "Subscribe to Labeler"
-msgstr "Feliratkozás a feljegyzőre"
+msgstr "Feliratkozás a címkézőre"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:194
 msgid "Subscribe to this labeler"
-msgstr "Feliratkozás a feljegyzőre"
+msgstr "Feliratkozás a címkézőre"
 
 #: src/view/screens/ProfileList.tsx:699
 msgid "Subscribe to this list"
@@ -6282,7 +6282,7 @@ msgstr "Fiókváltás"
 
 #: src/view/screens/Settings/index.tsx:131
 msgid "Switch to {0}"
-msgstr "Váltás rá: {0}"
+msgstr "Váltás erre: {0}"
 
 #: src/view/screens/Settings/index.tsx:132
 msgid "Switches the account you are logged in to"
@@ -6300,11 +6300,11 @@ msgstr "Rendszernapló"
 
 #: src/components/TagMenu/index.tsx:87
 msgid "Tag menu: {displayTag}"
-msgstr "Címkemenü: {displayTag}"
+msgstr "Hashtag menü: {displayTag}"
 
 #: src/components/dialogs/MutedWords.tsx:282
 msgid "Tags only"
-msgstr "Csak címkék"
+msgstr "Csak hashtagek"
 
 #: src/components/ProgressGuide/Toast.tsx:150
 msgid "Tap to dismiss"
@@ -6375,7 +6375,7 @@ msgstr "A közösségi irányelveket megszegő kifejezések"
 
 #: src/components/dialogs/MutedWords.tsx:266
 msgid "Text & tags"
-msgstr "Szöveg és címkék"
+msgstr "Szöveg és hashtagek"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:263
 #: src/screens/Messages/components/ChatDisabled.tsx:108
@@ -6440,12 +6440,12 @@ msgstr "A szerzői jogi irányelvek elköltöztek: <0/>"
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:102
 msgid "The Discover feed"
-msgstr "A Felfedezés hírfolyam"
+msgstr "A Felfedező hírfolyam"
 
 #: src/state/shell/progress-guide.tsx:167
 #: src/state/shell/progress-guide.tsx:172
 msgid "The Discover feed now knows what you like"
-msgstr "A Felfedezés hírfolyam olyan tartalmakat mutat, amelyek tetszhetnek Neked"
+msgstr "A Felfedező hírfolyam olyan tartalmakat mutat, amelyek tetszhetnek Neked"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:320
 msgid "The experience is better in the app. Download Bluesky now and we'll pick back up where you left off."
@@ -6453,15 +6453,15 @@ msgstr "Az alkalmazás jobb. Töltsd le a Blueskyt és onnan folytatjuk, ahol ab
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:67
 msgid "The feed has been replaced with Discover."
-msgstr "Ennek a hírfolyamnak a helyét átvette a Felfedezés."
+msgstr "Ennek a hírfolyamnak a helyét átvette a Felfedező."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:58
 msgid "The following labels were applied to your account."
-msgstr "Az alábbi feljegyzéseket alkalmazták a fiókodra."
+msgstr "Az alábbi címkéket alkalmazták a fiókodra."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:59
 msgid "The following labels were applied to your content."
-msgstr "Az alábbi feljegyzéseket alkalmazták a tartalmadra."
+msgstr "Az alábbi címkéket alkalmazták a tartalmadra."
 
 #: src/screens/Onboarding/Layout.tsx:58
 msgid "The following steps will help customize your Bluesky experience."
@@ -6674,7 +6674,7 @@ msgstr "Ez a hírfolyam üres."
 
 #: src/view/com/posts/FeedShutdownMsg.tsx:99
 msgid "This feed is no longer online. We are showing <0>Discover</0> instead."
-msgstr "Ez a hírfolyam már nem elérhető. Helyette a <0>Felfedezés</0> hírfolyamot mutatjuk."
+msgstr "Ez a hírfolyam már nem elérhető. Helyette a <0>Felfedező</0> hírfolyamot mutatjuk."
 
 #: src/components/dialogs/BirthDateSettings.tsx:40
 msgid "This information is not shared with other users."
@@ -6686,19 +6686,19 @@ msgstr "Ez fontos, ha a jövőben megváltoztatnád az email-címed vagy a jelsz
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:151
 msgid "This label was applied by <0>{0}</0>."
-msgstr "Feljegyezte a(z) <0>{0}</0>."
+msgstr "Címkézte: <0>{0}</0>."
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:146
 msgid "This label was applied by the author."
-msgstr "Feljegyezte a szerző."
+msgstr "Címkézte a szerző."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:163
 msgid "This label was applied by you."
-msgstr "Saját feljegyzés."
+msgstr "Saját magad által címkézve."
 
 #: src/screens/Profile/Sections/Labels.tsx:188
 msgid "This labeler hasn't declared what labels it publishes, and may not be active."
-msgstr "Ez a feljegyző nem jelentette ki a feljegyzési kategóriáit, ezért lehet, hogy nem aktív."
+msgstr "Ez a címkéző még nem állította be milyen címkéket oszt ki, ezért lehet, hogy nem aktív."
 
 #: src/view/com/modals/LinkWarning.tsx:72
 msgid "This link is taking you to the following website:"
@@ -6976,7 +6976,7 @@ msgstr "Fiók némításának feloldása"
 
 #: src/components/TagMenu/index.tsx:204
 msgid "Unmute all {displayTag} posts"
-msgstr "Az összes {displayTag} címkével rendelkező bejegyzés némításának feloldása"
+msgstr "Az összes {displayTag} hashtaggel rendelkező bejegyzés némításának feloldása"
 
 #: src/components/dms/ConvoMenu.tsx:176
 msgid "Unmute conversation"
@@ -7024,7 +7024,7 @@ msgstr "Leiratkozás a listáról"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:193
 msgid "Unsubscribe from this labeler"
-msgstr "Leiratkozás a feljegyzőről"
+msgstr "Leiratkozás a címkézőről"
 
 #: src/screens/List/ListHiddenScreen.tsx:86
 msgid "Unsubscribed from list"
@@ -7139,7 +7139,7 @@ msgstr "A másik alkalmazásba a felhasználóneveddel és ezzel jelentkezhetsz 
 
 #: src/view/com/modals/InviteCodes.tsx:201
 msgid "Used by:"
-msgstr "Használó:"
+msgstr "Felhasználta:"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:70
 #: src/lib/moderation/useModerationCauseDescription.ts:61
@@ -7317,11 +7317,11 @@ msgstr "{displayName} profiljának megtekintése"
 
 #: src/components/TagMenu/index.tsx:149
 msgid "View all posts by @{authorHandle} with tag {displayTag}"
-msgstr "@{authorHandle} {displayTag} címkével ellátott bejegyzéseinek megtekintése"
+msgstr "@{authorHandle} {displayTag} hashtaggel ellátott bejegyzéseinek megtekintése"
 
 #: src/components/TagMenu/index.tsx:103
 msgid "View all posts with tag {displayTag}"
-msgstr "A(z) {displayTag} címkével ellátott bejegyzések megtekintése"
+msgstr "A(z) {displayTag} hashtaggel ellátott bejegyzések megtekintése"
 
 #: src/components/ProfileHoverCard/index.web.tsx:433
 msgid "View blocked user's profile"
@@ -7349,7 +7349,7 @@ msgstr "Teljes válaszlánc megtekintése"
 
 #: src/components/moderation/LabelsOnMe.tsx:47
 msgid "View information about these labels"
-msgstr "További információ a feljegyzésekről"
+msgstr "További információ a címkékről"
 
 #: src/components/ProfileHoverCard/index.web.tsx:419
 #: src/components/ProfileHoverCard/index.web.tsx:439
@@ -7367,7 +7367,7 @@ msgstr "Profilkép megtekintése"
 
 #: src/components/LabelingServiceCard/index.tsx:162
 msgid "View the labeling service provided by @{0}"
-msgstr "A(z) {0} által kínált feljegyzési szolgáltatás megtekintése"
+msgstr "A(z) {0} által kínált címkéző szolgáltatás megtekintése"
 
 #: src/view/screens/ProfileFeed.tsx:588
 msgid "View users who like this feed"
@@ -7411,7 +7411,7 @@ msgstr "Figyelmeztetés és kiszűrés a hírfolyamokból"
 
 #: src/screens/Hashtag.tsx:218
 msgid "We couldn't find any results for that hashtag."
-msgstr "Erre a címkére nincs találat."
+msgstr "Erre a hashtagre nincs találat."
 
 #: src/screens/Messages/Conversation.tsx:110
 msgid "We couldn't load this conversation"
@@ -7443,7 +7443,7 @@ msgstr "A születési dátumod beállításainak betöltése meghiúsult. Prób�
 
 #: src/screens/Moderation/index.tsx:420
 msgid "We were unable to load your configured labelers at this time."
-msgstr "A feljegyzőid betöltése meghiúsult."
+msgstr "A beállított címkézők betöltése meghiúsult."
 
 #: src/screens/Onboarding/StepInterests/index.tsx:129
 msgid "We weren't able to connect. Please try again to continue setting up your account. If it continues to fail, you can skip this flow."
@@ -7492,7 +7492,7 @@ msgstr "Sajnáljuk, de a keresett oldal nem található."
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:331
 msgid "We're sorry! You can only subscribe to twenty labelers, and you've reached your limit of twenty."
-msgstr "Sajnáljuk, de egyszerre csak 20 feljegyzőre iratkozhatsz fel és elérted ezt a korlátot."
+msgstr "Sajnáljuk, de egyszerre csak 20 címkézőre iratkozhatsz fel és elérted ezt a korlátot."
 
 #: src/screens/Deactivated.tsx:128
 msgid "Welcome back!"
@@ -7762,7 +7762,7 @@ msgstr "Még egy kezdőcsomagot sem hoztál létre!"
 
 #: src/components/dialogs/MutedWords.tsx:398
 msgid "You haven't muted any words or tags yet"
-msgstr "Még egy szót vagy címkét sem némítottál el"
+msgstr "Még egy szót vagy hashtaget sem némítottál el"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:117
 #: src/lib/moderation/useModerationCauseDescription.ts:125
@@ -7771,11 +7771,11 @@ msgstr "Elrejtetted ezt a választ."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:78
 msgid "You may appeal non-self labels if you feel they were placed in error."
-msgstr "A nem saját magad által alkalmazott feljegyzéseket lehetőséged van fellebbezni, ha úgy gondolod, hogy tévedésből kerültek fel."
+msgstr "A nem saját magad által alkalmazott címkéket lehetőséged van fellebbezni, ha úgy gondolod, hogy tévedésből kerültek fel."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:83
 msgid "You may appeal these labels if you feel they were placed in error."
-msgstr "Lehetőséged van a fellebbezésre, ha úgy gondolod, hogy a feljegyzéseket tévedésből alkalmazták."
+msgstr "Lehetőséged van a fellebbezésre, ha úgy gondolod, hogy a címkéket tévedésből alkalmazták."
 
 #: src/screens/StarterPack/Wizard/State.tsx:79
 msgid "You may only add up to {STARTER_PACK_MAX_SIZE} profiles"
@@ -7879,7 +7879,7 @@ msgstr "Elkészültünk!"
 #: src/components/moderation/ModerationDetailsDialog.tsx:107
 #: src/lib/moderation/useModerationCauseDescription.ts:106
 msgid "You've chosen to hide a word or tag within this post."
-msgstr "Elrejtettél egy szót vagy címkét ebben a bejegyzésben."
+msgstr "Elrejtettél egy szót vagy hashtaget ebben a bejegyzésben."
 
 #: src/view/com/posts/FollowingEndOfFeed.tsx:44
 msgid "You've reached the end of your feed! Find some more accounts to follow."
